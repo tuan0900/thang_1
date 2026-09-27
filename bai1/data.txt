@@ -1,0 +1,4 @@
+ma|chi_nhanh|thanh_tien
+DH001|Ha Noi|12000000
+
+DH002|Da Nang|8500000
