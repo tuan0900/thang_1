@@ -27,15 +27,16 @@
 
   ## b8 :while, break và continue
 
-   -học về while:khi chỉ biết điều kiện dừng
-   -học về break là dùng ngay vòng lặp và continue là bỏ bỏ đoạn code ở dưới mà thực hiện vòng lặp tiếp theo
-   -tư duy loại bỏ dữ liệu xấu:
+   1.học về while:khi chỉ biết điều kiện dừng
+   2.học về break là dùng ngay vòng lặp và continue là bỏ bỏ đoạn code ở dưới mà thực hiện vòng lặp tiếp theo
+   3.tư duy loại bỏ dữ liệu xấu:
     dữ liệu xấu->xử lí nó ->bỏ qua->sang dữ liệu tiếp theo
     dữ liệu hợp lệ -> tiếp tục xử lí bên dưới
-   -cấu trúc for...else,nếu break vòng lặp for thì cũng break else và không chạy vào else nữa
-   -học .isdigit() kiểm tra một chuỗi có phải toàn chữ số hay không
-   -continue + biến đếm là cách chuẩn để bỏ qua dòng dữ liệu hỏng mà vẫn biết đã bỏ bao nhiêu.
-   * don = [("DH001", 12_000_000), ("DH002", 8_500_000),
+   4.cấu trúc for...else,nếu break vòng lặp for thì cũng break else và không chạy vào else nữa
+   5.học .isdigit() kiểm tra một chuỗi có phải toàn chữ số hay không
+   6.continue + biến đếm là cách chuẩn để bỏ qua dòng dữ liệu hỏng mà vẫn biết đã bỏ bao nhiêu.
+   7.ví dụ
+    don = [("DH001", 12_000_000), ("DH002", 8_500_000),
             ("DH003", 21_000_000), ("DH004", 4_200_000)]
 
     for ma, tien in don:
